@@ -277,28 +277,37 @@ header {
     color: var(--bg-color);
 }
 
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Permite que las columnas se acomoden en dispositivos pequeños */
+}
 
+.footer-logo img {
+    max-width: 150px; /* Ajusta el tamaño de tu logo */
+}
 
+.footer-contact p {
+    margin-bottom: 10px;
+}
 
+.footer-contact a {
+    color: #fff;
+    text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-contact a:hover {
+    text-decoration: underline;
+}
 
 
 
@@ -346,5 +355,20 @@ header {
     .card {
         width: 160px;
         height: 200px;
+    }
+}
+/* Responsividad */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Cambiar las columnas a una sola fila verticalmente */
+        text-align: center; /* Alinear el texto en el centro */
+    }
+
+    .footer-logo img {
+        max-width: 120px; /* Reducción del tamaño del logo en pantallas pequeñas */
+    }
+
+    .footer-contact p {
+        margin-bottom: 8px; /* Reducir el espacio entre los elementos de contacto */
     }
 }
