@@ -287,6 +287,7 @@ header {
             margin: 0 auto; /* Centra horizontalmente */
             max-width: 500px; /* Ajusta el ancho según necesites */
             padding: 20px;
+            margin-bottom: 10px;
         }
 
         .titulo {
