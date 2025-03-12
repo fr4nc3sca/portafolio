@@ -278,7 +278,7 @@ header {
 }
 
 footer {
-    background-color: #333;
+    background: var(--primary-color);
     color: white;
     padding: 20px;
 }
