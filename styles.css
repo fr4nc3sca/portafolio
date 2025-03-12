@@ -26,7 +26,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 50px;
     position: fixed;
     top:0;
     width: 100%;
@@ -293,7 +293,7 @@ footer {
 }
 
 .footer-logo img {
-    max-width: 150px; /* Ajusta el tamaño de tu logo */
+    max-width: 250px; /* Ajusta el tamaño de tu logo */
 }
 
 .footer-contact p {
