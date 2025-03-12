@@ -284,6 +284,7 @@ header {
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             width: 450px;
             text-align: center;
+            align-items: center;
         }
 
         .titulo {
