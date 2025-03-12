@@ -277,40 +277,6 @@ header {
     color: var(--bg-color);
 }
 
-
-
-footer {
-    background: var(--primary-color);
-    color: white;
-    padding: 20px;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    flex-wrap: wrap; /* Permite que las columnas se acomoden en dispositivos pequeños */
-}
-
-.footer-logo img {
-    max-width: 250px; /* Ajusta el tamaño de tu logo */
-}
-
-.footer-contact p {
-    margin-bottom: 10px;
-}
-
-.footer-contact a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.footer-contact a:hover {
-    text-decoration: underline;
-}
-
 .form-container {
             background: white;
             padding: 30px;
@@ -363,6 +329,40 @@ footer {
         .boton:hover {
             background: #5a2bbd;
         }
+
+footer {
+    background: var(--primary-color);
+    color: white;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Permite que las columnas se acomoden en dispositivos pequeños */
+}
+
+.footer-logo img {
+    max-width: 250px; /* Ajusta el tamaño de tu logo */
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
+}
+
+.footer-contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+
 
 
 
